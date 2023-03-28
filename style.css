@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: #505959;
+
+    /* background-color: #dadada; */
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    background-image: url(icons8-lotus-64.png);
+    background-position: center;
+    background-size: cover;
+    /* color: silver; */
+    position: absolute;
+    top: 2.5vmin;
+    left: 2vmin;
+}
+h3{
+    color: silver;
+    position: absolute;
+    top: 5vmin;
+    left: 5vmax;
+}
+.nav{
+    position: absolute;
+    top: 5vmin;
+    left: 45vmax;
+}
+.nav a{
+    text-decoration: none;
+    color:silver;
+    opacity: .6;
+    margin:  0 20px;
+    font-family: 'Roboto', sans-serif;
+}
+ #five a{
+    border-bottom: 4px solid goldenrod;
+}
+button{
+    margin: 0 0 0 60px;
+    padding: 10px 20px;
+    background-color: goldenrod;
+    border: none;
+    color: white;
+    font-size: 14px;
+}
+.box1{
+    width: 100vmax;
+    height: 70vmin;
+    background-color: #2F3535;
+    position: absolute;
+    top: 15vmin;
+}
+.box1 h3{
+    font-size: 14px;
+    color:goldenrod;
+}
+h1{
+    position: absolute;
+    top: 11vmin;
+    left: 5vmax;
+    font-size: 54px;
+    font-family: 'Poppins', sans-serif;
+    color: silver;
+}
+p{
+    position: absolute;
+    top: 35vmin;
+    left: 5vmax;
+    width: 20%;
+    font-size: 12px;
+    font-family: helvetica;
+    color:silver;
+    opacity: .6;
+}
+#one{
+    background-color: goldenrod;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 15vmin;
+    left: 1vmax;
+}
+#one:hover{
+    background-color: transparent;
+    border: 1px solid goldenrod;
+}
+#two{
+    position: absolute;
+    bottom: 15vmin;
+    left: 10vmax;
+    background-color: transparent;
+    color:silver;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+}
+#two:hover{
+    background-color: goldenrod;
+    border: none;
+
+}
+.img{
+    width: 30vmax;
+    height: 70vmin;
+    background-image: url(https://images.unsplash.com/photo-1588731222899-68315ddd5e8e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-position: top;
+    background-size: cover;
+    position: absolute;
+    right: 10vmax;
+}
+.icon{
+    position: absolute;
+    bottom: 5vmin;
+    right: 5vmax;
+}
+.icon a{
+    font-size: 22px;
+    text-decoration: none;
+    color: silver;
+    margin: 0 10px;
+}
